@@ -18,14 +18,18 @@ body {
 }
 
 .logo {
-    width: 50vw;
+    width: 40vw;
+    padding: 2px 2px 2px 2px;
 }
 
 .copy-header {
     text-align: center;
+
+}    
+
     /* width: 40vw; */
-}
-/* ------------------HEADER NAV-------------- */
+
+/* -----------------HEADER NAV-------------- */
 .main-navbar{
     display: none;
 }
@@ -47,33 +51,26 @@ body {
 /* ---------------BURGER MENU---------------- */
 
 .hamburguer-button {
-    background-color: #0044AA;
-    border-radius: 8px;
-    /* text-decoration: center; */
-    color: #FFF;
-    display: block;
-    font-size: 20px;
+    background-color: #1259c3;
+    display: flex;
     height: 50px;
-    margin: 10px 0px 10px 0px;
-    padding: 15px;
-    max-width: 50px;
-    justify-content: center;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 50px;
    
 }
 
 .fa-bars{
-    text-align: center;
-    font-size: 25px;
     color: white;
-    line-height: 10px;
-    margin-left: 0px;
-    align-items: center;
+    margin: auto;
+    font-size: 20px;
     
     
 }
 /* --------------BANNERR----------------------- */
 section.banner img {
     width: 100%;
+    height: auto;
 }
 
 /* ----------------------MAIN----------------- */
@@ -209,15 +206,27 @@ footer {
     margin: 35px 55px;
 } */
 
-.fa-credit-card,
-.fa-gift,
+.fa-credit-card {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-gifts{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center; 
+    
+}
 .fa-user-shield {
     color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
 }
 
-.fa-gift:hover {
+.fa-gifts:hover {
     color: #666;
 }
 
@@ -233,16 +242,6 @@ h4 b {
     font-size: 20px;
 }
 
-/* .align-footer{
-    text-align: center;
-} */
-/* .fa-credit-card{
-    text-align: center;
-}
-.fa-gift{
-    font-size: 2em;
-    text-align: center; 
-}
 .fa-user-shield{
     font-size: 2em;
     text-align: center; 
@@ -294,7 +293,7 @@ h4 b {
     }
 }
 
-/*---------------MEDIAS TABLER---------------------*/
+/*---------------MEDIAS TABLET---------------------*/
 @media (min-width: 769px) {
     .main-header-top-bar {
         display: flex;
