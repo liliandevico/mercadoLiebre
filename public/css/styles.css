@@ -44,9 +44,8 @@ header .form{
     align-items: center;
     padding: 5px;
     font-size: 11px;
-    flex-wrap:nowrap;
+    /* flex-wrap:nowrap; */
 }
-
 /* -----------------HEADER NAV-------------- */
 .main-navbar{
     display: none;
@@ -68,7 +67,6 @@ header .form{
 
 /* ---------------BURGER MENU---------------- */
 
-
 div.burger-menu{
     text-align: center;
 }
@@ -83,9 +81,6 @@ div.burger-menu i{
     padding: 10px;
     width: 40px;
 }
-
-
-
 /* --------------BANNERR----------------------- */
 section.banner img {
     width: 100%;
@@ -133,6 +128,8 @@ h3, .description {
 main section article {
     background-color: #fff;
     margin: 10px 0px;
+    position: relative;
+    border-radius: 5px;
 }
 
 main section article img {
@@ -206,7 +203,7 @@ h3,
     margin-top: 20px;
 }
 
-/*-----------------FOOTER-----------------*/
+/*--------------------FOOTER---------------------*/
 
 footer {
     text-align: center;
@@ -222,6 +219,7 @@ footer {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .fa-gifts{
@@ -281,7 +279,7 @@ footer {
 
 
 
-/*LOGIN*/
+/*-----------------------BOTON LOGIN*-----------------------*/
 
 .bottom-header-nav:hover {
     background-color: #3498db;
@@ -290,11 +288,28 @@ footer {
 /* ---------------- MEDIAS TABLET------------------- */
 @media (min-width: 361px) {
     
-    img.logo{
-        width: 40%;
+    header.top-header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }    
+   header.top-header.logo{
+        width: 30vw;
     }
-    main-navbar{
-        font-size: 20px;
+
+   header.top-header.form.input.search{
+        width: 40vw;
+    }
+
+    header.top-header.form.input.submit{
+        width: 10vw;
+    }
+
+    header.top-header.p{
+        width: 40vw;
+        font-size: 18px;
     }
     
     main section article .description {
@@ -303,6 +318,7 @@ footer {
 
     main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40vw;
     }
 
     main section div.products {
@@ -310,11 +326,11 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
-
-    main section div.products article {
-        width: 45%;
+    
+    .price, .discount{
+        width: 50%;
     }
 }
 
@@ -329,35 +345,30 @@ footer {
         width: 40%;
     }
     
-    input.search{
+    div input.search{
         width: 310px;
-        height: 50px;
+        height: 30px;
         margin-left: 20px;
     }
 
     button.submit{
-        width: 50px;
-        height: 50px;   
+        width: 30px;
+        height: 30px;   
     }
 
     .fa-hand-holding-usd{
         font-size: 20px;
     }
 
-    span.buy{
-        font-size: 15px;
-    }
-
-    .copy-header {
+    .p{
         max-width: 350px;
         text-align: right;
         font-size: 15px;
-    }
+    }   
 
     .hamburguer-button {
         display: none;
     }
-
         .main-navbar {
         display: flex;
         justify-content: space-between;
@@ -376,9 +387,20 @@ footer {
     .main-navbar li a {
         font-size: 15px;
     }
+    main section article .description {
+        display: block;
+    }
 
-    .main section div.products article {
-        width: 22%;
+    /* main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    } */
+main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
     }
 
     .footer-conteiner {
