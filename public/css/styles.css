@@ -14,34 +14,39 @@ body {
 /* -------------------TOP HEADER------------------- */
 .main-header {
     background-color: #EAC926;
-    padding: 10px;
+}
+p{
+    font-size: 12px;
 }
 
-.img.logo {
-    width: 40%;
-    padding: 2px 2px 2px 2px;
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
 }
 
-.input.search{
-    width:30%
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
 }
 
-.button.submit{
-    width: 10px;
+header div.logo,
+header .form{
+    width: 50%;
 }
-.copy-header{
-    width:100%;
-    text-align:center ;
-    font-weight: lighter;
-} 
 
-.copy-header i{
-    font-size: 23px;
-    margin: 5px 5px 5px 10px;
+header div.logo{
+    padding: 5px;
 }
-.copy-header span{
-    font-size: 13px;
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 11px;
+    flex-wrap:nowrap;
 }
+
 /* -----------------HEADER NAV-------------- */
 .main-navbar{
     display: none;
@@ -63,21 +68,24 @@ body {
 
 /* ---------------BURGER MENU---------------- */
 
-.hamburguer-button {
-    background-color: #1259c3;
-    display: flex;
-    height: 40px;
-    border-radius: 8px;
-    margin: 10px auto;
-    width: 40px;
-   
+
+div.burger-menu{
+    text-align: center;
 }
 
-.fa-bars{
-    color: white;
-    margin: auto;
-    font-size: 20px;  
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
 }
+
+
+
 /* --------------BANNERR----------------------- */
 section.banner img {
     width: 100%;
