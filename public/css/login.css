@@ -17,12 +17,19 @@ body {
     padding: 20px;
 }
 
-img.logo {
-    width: 50vw;
+.main-header-top-bar{
+    will-change: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    ;
+}
+.img.logo {
+    width: 50%;
     padding: 2px 2px 2px 2px;
 }
+.sear
 
-.copy-header{
+/* .copy-header{
     width:100%;
     /* text-align: center; */
     font-weight: lighter;
@@ -35,7 +42,7 @@ img.logo {
 }
 .copy-header span{
     font-size: 13px;
-}
+} */
 /* -----------------HEADER NAV-------------- */
 .main-navbar{
     display: none;
