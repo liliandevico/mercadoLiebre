@@ -9,13 +9,21 @@ body {
     background-color: #ebebeb;
 }
 
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
 /* -----------------HEADER--------------------- */
 
 /* -------------------TOP HEADER------------------- */
 header {
     background-color: #EAC926;
     width: 100%;
-    /* padding: 15px 0 10px 0; */
+    padding: 15px 0 10px 0;
 }
 
 .nav-conteiner {
@@ -65,29 +73,6 @@ header {
     display: none;
 }
 
-/* .navegation-conteiner{
-    display:flex;
-   justify-content: space-between;
-}
-
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-li{
-    text-decoration: none;
-    margin: 10px;
-}
-
-li a{
-    color: #000;
-    list-style-type: none 
-}
-.navegationv{
-    margin: 10px 0;;
-} */
-
 /* ---------------BURGER MENU---------------- */
 
 div.burger-menu {
@@ -131,6 +116,8 @@ main {
 
 .discount{
     width: 70%;
+}
+.discount{
     font-size: 16px;
     color: #39b54a;
 }
@@ -145,31 +132,39 @@ h3,.description {
 
 .description{
     margin-top: 20px;
-    /* padding-top: 15px; */
+    padding-top: 15px;
 }
 
 .description{
     display: none;
 }
 
-.main section article:hover .description {
-        display: block;
-}   
-
 main section article {
     background-color: #fff;
     margin: 10px 0px;
-    position: relative;
-    border-radius: 5px;
+    /* position: relative;
+    border-radius: 5px; */
 }
 
 main section article img {
     width: 100%;
 }
 
+main section article i, .discount{
+color-scheme: #39b54a;
+}
+
+.fa-truck{
+    color: #39b54a;
+}
+
 .fa-truck:hover {
     transition: 1000ms;
     transform: rotate(-90deg);
+}
+
+.main section article:hover .description {
+        display: block;
 }
 
 main section article i {
@@ -180,14 +175,16 @@ main section article i {
     height: 30px;
     border: 1px solid #39b54a;
     background-color: #FFF;
-    color: #39b54a;
     border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px;
 }
+main section h3{
+    margin: 20px 0;
+}
 
-article .main-article {
+article div.main-article {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -205,6 +202,7 @@ main section article:hover {
 
 footer {
     text-align: center;
+    padding: 10px;
 }
 
 .footer-conteiner {
@@ -293,7 +291,7 @@ footer {
         font-size: 18px;
     }
 
-    /* .navegation-conteiner {
+    .navegation-conteiner {
         display: flex;
         justify-content: space-between;
     }
@@ -312,11 +310,15 @@ footer {
     li a {
         color: #000;
         list-style-type: none
-    } */
+    }
 
     .navegation {
         margin: 10px 0;
         ;
+    }
+   
+    div.burger-menu, div.burger-menu i {
+        display: none;
     }
 
     .description{
