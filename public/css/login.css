@@ -151,12 +151,7 @@ div.burger-menu i {
     border-radius: 10px;
     
 }
-.form-body input .input-login:hover{
-    transition: 10s;
-    border: solid #eeff01;
-    color: rgb(74, 72, 72);
-}
-.form-login button{
+.form-login button.boton-formulario{
     margin: auto;
     cursor: pointer;
     border-radius: 10px;
@@ -173,9 +168,7 @@ div.burger-menu i {
     
 }
 
-.form-login button:hover{
-    color: #ffff;
-}
+
 
 .footer-title {
     text-align: center;
@@ -234,10 +227,9 @@ footer {
 
 /*-----------------------BOTON LOGIN*-----------------------*/
 
-.bottom-header-nav:hover {
-    background-color: #3498db;
+.form-login button .boton-formulario:hover{
+    color: #0022AA;
 }
-
 /* ---------------- MEDIAS TABLET------------------- */
 @media (min-width: 361px) {
 

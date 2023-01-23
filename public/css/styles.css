@@ -15,7 +15,7 @@ body {
 header {
     background-color: #EAC926;
     width: 100%;
-    padding: 15px 0 10px 0;
+    /* padding: 15px 0 10px 0; */
 }
 
 .nav-conteiner {
@@ -134,19 +134,27 @@ main {
     font-size: 16px;
     color: #39b54a;
 }
-.description {
+.discount,.description {
     font-size: 16px;
-    padding-top: 15px;
     font-weight: normal;
+    
+}
+h3,.description {
     color: #666;
-    display: none;
+}
+
+.description{
     margin-top: 20px;
+    /* padding-top: 15px; */
 }
 
-h3 {
-    color: #666;
+.description{
+    display: none;
 }
 
+.main section article:hover .description {
+        display: block;
+}   
 
 main section article {
     background-color: #fff;
@@ -162,10 +170,6 @@ main section article img {
 .fa-truck:hover {
     transition: 1000ms;
     transform: rotate(-90deg);
-}
-
-main section article:hover .description {
-    display: block;
 }
 
 main section article i {
@@ -260,9 +264,6 @@ footer {
         margin: auto 0;
     }
 
-    .description{
-        display: none;
-    }
     .home-banner{
         width: 100vw;
 
@@ -318,11 +319,16 @@ footer {
         ;
     }
 
-    main section article .description {
-        display: block;
+    .description{
+        display: none;
     }
+    
+    .main section article:hover .description {
+            display: block;
+    }   
 
-    main section article {
+
+    main section article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 40vw;
     }
@@ -413,11 +419,14 @@ footer {
         color: #000;
         list-style-type: none
     }
-
-    main section article .description {
-        display: block;
+    .description{
+        display: none;
     }
-
+    
+    .main section article:hover .description {
+            display: block;
+    }   
+    
     main section div.products {
         display: flex;
         flex-direction: row;
@@ -425,7 +434,7 @@ footer {
         justify-content: space-between;
         align-items: flex-start;
     }
-    main section article {
+    main section article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 20%;
     }
@@ -471,10 +480,24 @@ footer {
     .main-navbar a {
         font-size: 19px;
     }
+    .description{
+        display: none;
+    }
+    
+    .main section article:hover .description {
+            display: block;
+    }  
+    
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
+    }
 
     .footer-conteiner {
         display: flex;
         padding: 80px;
         justify-content: space-between;
     }
+
+    
 }

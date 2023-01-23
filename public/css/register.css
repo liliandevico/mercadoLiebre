@@ -126,26 +126,33 @@ div.burger-menu i {
  padding:20px 15px;
 }
 .control-formulario{
-  margin-bottom: 15px;   
+  margin-bottom: 15px;
+
+ 
 }
 .control-formulario label{
   margin-bottom: 5px;
   font-style: italic;
   display: block;
 }
+
 .control{
   width: 350px;
   padding: 8px 8px;
+  border-radius: 10px;
+  border: 1px solid #1259c3;
 }
+
 .boton-formulario{
-  background-color: #39b54a;
+  background-color: #1259c3;
   border: none;
   font-size: 20px;
   color: #ffff;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 41px;
 }
+
 /*-----------------FOOTER-----------------*/
 
 .article-footer{
@@ -282,7 +289,7 @@ footer {
         width: 40vw;
         font-size: 18px;
     }
-
+/* ---------------quedan comentadas por si se quieren mostrar mas adelante--------------- */
     /* .navegation-conteiner {
         display: flex;
         justify-content: space-between;
