@@ -256,7 +256,21 @@ footer {
 
 /* ---------------- MEDIAS TABLET------------------- */
 @media (min-width: 361px) {
+    
+    
+    .nav-all{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-items:center ;
+        align-items: center;
+    }
 
+    header div.nav-all div.nav-tittle{
+        width: 60vw;
+        font-size: 14px;
+    }
     .navegation{
         height: 50px;
         margin: auto 0;
@@ -266,16 +280,10 @@ footer {
         width: 100vw;
 
     }
-    .nav-conteiner {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .nav-conteiner.logo {
-        width: 30vw;
+    header .nav-conteiner .logo {
+        width: 20vw;
+        margin-right: 60px;
     }
 
     .nav-conteiner.search input {
@@ -284,12 +292,12 @@ footer {
 
     .nav-conteiner.search.button {
         width: 10vw;
+       
     }
-
-    .nav-conteiner.p {
-        width: 40vw;
-        font-size: 18px;
+    .div .search{
+    margin-right: 30px;
     }
+    
 
     .navegation-conteiner {
         display: flex;
@@ -371,7 +379,7 @@ footer {
     }
 
     div.search{
-        height: 60px;
+        height: 40px;
         margin: auto 0 auto 0;
     }
 
@@ -400,11 +408,10 @@ footer {
         width:100vw;
         padding:0;
     }
-   
-    .navegation-conteiner {
-        display: flex;
-        justify-content: space-between;
-    }
+   .navigation.navegation-conteiner{
+    display: flex;
+    justify-content: space-between;
+   }
 
     ul {
         list-style-type: none;
