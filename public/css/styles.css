@@ -301,50 +301,6 @@ main.login {
     background-color: darkblue;
 }
 
-
-/* ---------------------REGISTER------------------------- */
-
-.register input{
-    font-size: 12px;
-    padding: 2%;
-    margin: 2%;
-    text-align: center;
-}
-
-.register h4 label{
-    font-size: 14px;
-}
-
-.profile{
-    font-size: 14px;
-    padding: 2%;
-    margin: 2%;
-    text-align: left;
-    width: 70%;
-}
-
-.interests{
-    font-size: 14px;
-    padding: 2%;
-    margin: 2%;
-}
-
-.register-button{
-    background-color: rgb(37, 86, 221);
-    color: #ebebeb;
-    width: 30%;
-    padding: 2%;
-    margin: 2%;
-}
-
-
-.register-button:hover{
-    background-color: darkblue;
-}
-
-
-
-
 /*-------------------------------TABLET-------------------------------------------*/
 
 
@@ -396,13 +352,13 @@ header.form{
     font-size: 18px;
     }
 
-
+/* ------------------NOTEBOOK-DESK--------------- */
 }
 @media (min-width: 769px){
     
    
     header div.logo{
-        width: 50%;   
+        width: 30%;   
     }
 
     header.form{
