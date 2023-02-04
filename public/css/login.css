@@ -15,7 +15,7 @@ body {
 header {
     background-color: #EAC926;
     width: 100%;
-    padding: 15px 0 10px 0;
+    padding: 15px 0px 0px 0px;
 }
 
 .nav-conteiner {
@@ -105,15 +105,15 @@ div.burger-menu i {
     margin: auto
 }
 
-/* --------------BANNERR----------------------- */
+/* --------------BANNER----------------------- */
 .home-banner {
     width: 100vw;
     padding: 0;
 }
 
 
-  /* -------------------MAIN--------------------------- */
-/* -------------------LOGIN--------------------------- */
+  /* -------------------MAIN / LOGIN-------------------------- */
+
 .main-login{
     display:flex;
     align-items:center;
@@ -180,6 +180,7 @@ div.burger-menu i {
 
 footer {
     text-align: center;
+    padding: 15px;
 }
 
 .footer-conteiner {

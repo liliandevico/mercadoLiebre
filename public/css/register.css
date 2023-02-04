@@ -15,7 +15,7 @@ body {
 header {
     background-color: #EAC926;
     width: 100%;
-    padding: 15px 0 10px 0;
+    padding: 15px 0px 0px 0px;
 }
 
 .nav-conteiner {
@@ -105,15 +105,13 @@ div.burger-menu i {
     margin: auto
 }
 
-/* --------------BANNERR----------------------- */
+/* --------------BANNER----------------------- */
 .home-banner {
     width: 100vw;
     padding: 0;
 }
 
-/* -----------------MAIN------------------------- */
-
-/* ------------FORMULARIO DE REGISTRO------------ */
+/* -----------------MAIN / FORMULARIO DE REGISTRO------------------------ */
 
 .main-register{
   display: flex;
@@ -124,10 +122,10 @@ div.burger-menu i {
 
 .create-form{
  padding:20px 15px;
+
 }
 .control-formulario{
   margin-bottom: 15px;
-
  
 }
 .control-formulario label{
@@ -150,55 +148,14 @@ div.burger-menu i {
   color: #ffff;
   padding: 10px 15px;
   border-radius: 15px;
-  margin: 41px;
+  margin: 20px 40px 20px 40px;
 }
 
 /*-----------------FOOTER-----------------*/
 
-.article-footer{
-    text-align: center;
-    margin: 35px 55px;
-}
-
- .i-footer {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.i-footer:hover{
-    color: #666;
-}
-
-.align-footer{
-    text-align: center;
-}
-.fa-credit-card{
-    font-size: 2em;
-    text-align: center;
-}
-
-.fa-gift{
-    font-size: 2em;
-    text-align: center; 
-}
-
-.fa-user-shield{
-    font-size: 2em;
-    text-align: center; 
-}
-
-.footer-title {
-    text-align: center;
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-
-/*--------------------FOOTER---------------------*/
-
 footer {
     text-align: center;
+    padding: 15px;
 }
 
 .footer-conteiner {
@@ -244,10 +201,11 @@ footer {
     font-size: 13px;
 }
 
+
 /*-----------------------BOTON LOGIN*-----------------------*/
 
 .bottom-header-nav:hover {
-    background-color: #3498db;
+    background-color: #0022AA;
 }
 
 /* ---------------- MEDIAS TABLET------------------- */
