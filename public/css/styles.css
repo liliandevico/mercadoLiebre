@@ -17,9 +17,9 @@ p{
     font-size: 12px;
 }
 
-/* -----------------HEADER--------------------- */
+/* ----------------------HEADER------------------------- */
 
-/* -------------------TOP HEADER------------------- */
+/* ----------------------TOP HEADER---------------------- */
 header {
     background-color: #EAC926;
     width: 100%;
@@ -34,24 +34,25 @@ header {
 }
 
 .logo {
-    width: 45%;
-    height: 45%;
+    width: 45vw;
+    height: 45px;
     display: block;
     margin-left: 10px;
     /* margin-right: 15px; */
 }
 
 .search {
-    width: 43%;
+    width: 40vw;
     display: flex;
     background-color: #fff;
     border: 1px solid #FFF;
     border-radius: 10px;
-    /* margin-right: 5%; */
+    margin-right: 10px;
 }
 
 .search input {
-    width: 85%;
+    width: 75vw;
+    height:
     border: none;
     border-radius: 10px;
 
